@@ -1,0 +1,3 @@
+[submodule "ajv"]
+	path = ajv
+	url = git@github.com:epoberezkin/ajv.git

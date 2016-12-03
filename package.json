@@ -1,0 +1,38 @@
+{
+  "name": "test-validators",
+  "version": "1.0.0",
+  "description": "Test validators compatibility",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "coffee-script": "^1.11.1",
+    "is-my-json-valid": "^2.15.0",
+    "jayschema": "^0.3.1",
+    "jjv": "^1.0.2",
+    "jsck": "^0.3.0",
+    "jsen": "^0.6.4",
+    "json-schema-test": "^1.2.1",
+    "jsonschema": "^1.1.0",
+    "mocha": "^3.2.0",
+    "schemasaurus": "^0.7.8",
+    "skeemas": "^1.2.2",
+    "themis": "^1.1.6",
+    "tv4": "^1.2.7",
+    "z-schema": "^3.18.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epoberezkin/test-validators.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epoberezkin/test-validators/issues"
+  },
+  "homepage": "https://github.com/epoberezkin/test-validators#readme"
+}
