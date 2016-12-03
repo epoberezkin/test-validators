@@ -9,7 +9,7 @@ var validator = {
       valid = false;
       errors = (errors || []).concat(missing.map(id => ({missingSchema: id})));
     }
-    validator.errors = valid ? null : errors;
+    validator.errors = errors;
     return valid;
   }
 };

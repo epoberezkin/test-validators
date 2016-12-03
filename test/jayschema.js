@@ -7,7 +7,7 @@ var validator = {
   validate(schema, data) {
     var errors = jayschema.validate(data, schema);
     var valid = !(errors && errors.length);
-    validator.errors = valid ? null : errors;
+    validator.errors = errors;
     return valid;
   }
 };

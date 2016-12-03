@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+for file in test/*.js; do
+  if [[ "$file" != "test/testValidator.js" ]]; then
+    echo
+    echo "$file" | sed 's/test\///' | sed 's/\.js//'
+    mocha "$file" | egrep -s 'passing|failing'
+  fi
+done

@@ -6,7 +6,7 @@ var validator = {
   validate(schema, data) {
     var v = jsen(schema);
     var valid = v(data);
-    validator.errors = valid ? null : v.errors;
+    validator.errors = v.errors;
     return valid;
   }
 };
