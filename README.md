@@ -30,7 +30,10 @@ The table header shows the total number of tests is each group.
 
 ## Most failed tests related to $ref
 
-|Test file|imjv<sup>*<sup>|jayschema|jjv|jsck|jsen|jsonschema|ss<sup>**<sup>|skeemas|themis|tv4|z-schema|
+`x` marks the validators that failed the test.
+
+|<sub>Test file</sub>|<sub>imjv</sub><sup>*</sup>|<sub>jayschema</sub>|<sub>jjv</sub>|<sub>jsck</sub>|<sub>jsen</sub>|<sub>jsonschema</sub>|<sub>ss</sub><sup>**</sup>|<sub>skeemas</sub>|<sub>themis</sub>|<sub>tv4</sub>|<sub>z-schema</sub>|
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)|x|x|x|x|x|x|x|x|x|x|x|
 |[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)|x||x|x|x||x|x|x||x|
 |[ref in remote ref with id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/14_ref_in_remote_ref_with_id.json)|x||x|x|x||x|x|x|||
@@ -43,9 +46,9 @@ The table header shows the total number of tests is each group.
 |[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|x|||x|x||x||x|||
 |[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|x|x|x||||x||x|||
 
-<sup>*<sup> is-my-json-valid
+<sup>*</sup> is-my-json-valid
 
-<sup>**<sup> schemasaurus
+<sup>**</sup> schemasaurus
 
 
 ## Running tests
