@@ -14,25 +14,25 @@ The table header shows the total number of tests is each group.
 
 |validator|spec<br>(272)|schemas<br>(32)|keywords<br>(33)|issues<br>(103)|**total**<br>(440)|
 |---|:-:|:-:|:-:|:-:|:-:|
-|ajv|-|-|-|-|-|
-|is-my-json-valid|6|-|-|13|**19**|
-|jayschema|5|-|-|6|**11**|
-|jjv|9|2|1|12|**24**|
-|jsck|16|15|-|49|**80**|
-|jsen|-|-|-|44|**44**|
-|jsonschema|2|2|-|10|**14**|
-|schemasaurus|18|19|2|71|**110**|
-|skeemas|2|4|1|23|**30**|
-|themis|12|-|4|55|**71**|
-|tv4|2|1|-|11|**14**|
-|z-schema|-|1|-|17|**18**|
+|[ajv](https://github.com/epoberezkin/ajv)|-|-|-|-|-|
+|[is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)|6|-|-|13|**19**|
+|[jayschema](https://github.com/natesilva/jayschema)|5|-|-|6|**11**|
+|[jjv](https://github.com/acornejo/jjv)|9|2|1|12|**24**|
+|[jsck](https://github.com/pandastrike/jsck)|16|15|-|49|**80**|
+|[jsen](https://github.com/bugventure/jsen)|-|-|-|44|**44**|
+|[jsonschema](https://github.com/tdegrunt/jsonschema)|2|2|-|10|**14**|
+|[schemasaurus](https://github.com/AlexeyGrishin/schemasaurus)|18|19|2|71|**110**|
+|[skeemas](https://github.com/Prestaul/skeemas)|2|4|1|23|**30**|
+|[themis](https://github.com/playlyfe/themis)|12|-|4|55|**71**|
+|[tv4](https://github.com/geraintluff/tv4)|2|1|-|11|**14**|
+|[z-schema](https://github.com/zaggino/z-schema)|-|1|-|17|**18**|
 
 
 ## Most failed tests related to $ref
 
 `x` marks the validators that failed the test.
 
-|<sub>Test file</sub>|<sub>imjv</sub><sup>*</sup>|<sub>jayschema</sub>|<sub>jjv</sub>|<sub>jsck</sub>|<sub>jsen</sub>|<sub>jsonschema</sub>|<sub>ss</sub><sup>**</sup>|<sub>skeemas</sub>|<sub>themis</sub>|<sub>tv4</sub>|<sub>z-schema</sub>|
+|<sub>Test file</sub>|<sub>[imjv](https://github.com/mafintosh/is-my-json-valid)</sub><sup>*</sup>|<sub>[jayschema](https://github.com/natesilva/jayschema)</sub>|<sub>[jjv](https://github.com/acornejo/jjv)</sub>|<sub>[jsck](https://github.com/pandastrike/jsck)</sub>|<sub>[jsen](https://github.com/bugventure/jsen)</sub>|<sub>[jsonschema](https://github.com/tdegrunt/jsonschema)</sub>|<sub>[ss](https://github.com/AlexeyGrishin/schemasaurus)</sub><sup>**</sup>|<sub>[skeemas](https://github.com/Prestaul/skeemas)</sub>|<sub>[themis](https://github.com/playlyfe/themis)</sub>|<sub>[tv4](https://github.com/geraintluff/tv4)</sub>|<sub>[z-schema](https://github.com/zaggino/z-schema)</sub>|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)|x|x|x|x|x|x|x|x|x|x|x|
 |[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)|x||x|x|x||x|x|x||x|
@@ -46,9 +46,9 @@ The table header shows the total number of tests is each group.
 |[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|x|||x|x||x||x|||
 |[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|x|x|x||||x||x|||
 
-<sup>*</sup> is-my-json-valid
+<sup>*</sup> [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)
 
-<sup>**</sup> schemasaurus
+<sup>**</sup> [schemasaurus](https://github.com/AlexeyGrishin/schemasaurus)
 
 
 ## Running tests
