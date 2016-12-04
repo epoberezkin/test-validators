@@ -26,3 +26,21 @@ The table header shows the total number of tests is each group.
 |themis|12|-|4|55|**71**|
 |tv4|2|1|-|11|**14**|
 |z-schema|-|1|-|17|**18**|
+
+
+## Running tests
+
+```bash
+npm install
+git submodule update --init
+
+# all tests with all validators
+npm test
+
+# one group of tests for all validators
+# groups: spec, schemas, keywords, issues
+npm test spec
+
+# all tests for one validator
+mocha test/ajv
+```
