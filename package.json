@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/epoberezkin/test-validators.git"
   },
-  "author": "",
+  "author": "Evgeny Poberezkin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/epoberezkin/test-validators/issues"

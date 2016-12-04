@@ -53,6 +53,8 @@ The table header shows the total number of tests is each group.
 
 ## Running tests
 
+Tests require node v6 to run.
+
 ```bash
 npm install
 git submodule update --init
