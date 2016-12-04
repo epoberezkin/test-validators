@@ -11,6 +11,9 @@ var validator = {
     }
     validator.errors = errors;
     return valid;
+  },
+  addSchema(schema, id) {
+    tv4.addSchema(id, schema);
   }
 };
 

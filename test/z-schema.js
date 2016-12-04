@@ -1,7 +1,6 @@
 'use strict';
 
 var ZSchema = require('z-schema');
-
 var z = new ZSchema();
 
 var validator = {
@@ -10,6 +9,9 @@ var validator = {
     var valid = z.validate(data, schema);
     validator.errors = valid ? null : z.getLastErrors();
     return valid;
+  },
+  addSchema(schema, id) {
+    z.setRemoteReference(id, schema);
   }
 };
 

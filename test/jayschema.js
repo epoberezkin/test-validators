@@ -9,6 +9,9 @@ var validator = {
     var valid = !(errors && errors.length);
     validator.errors = errors;
     return valid;
+  },
+  addSchema(schema, id) {
+    jayschema.register(schema, id);
   }
 };
 

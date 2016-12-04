@@ -8,6 +8,9 @@ var validator = {
     var {valid, errors} = jsonschema.validate(data, schema);
     validator.errors = errors;
     return valid;
+  },
+  addSchema(schema, id) {
+    jsonschema.addSchema(schema, id);
   }
 };
 

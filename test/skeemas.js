@@ -7,6 +7,9 @@ var validator = {
     var {valid, errors} = skeemas.validate(data, schema);
     validator.errors = errors;
     return valid;
+  },
+  addSchema(schema, id) {
+    skeemas.addRef(id, schema);
   }
 };
 
