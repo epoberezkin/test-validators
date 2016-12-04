@@ -2,6 +2,14 @@
 
 var {schemas, meta} = require('./remotes');
 var jsonSchemaTest = require('json-schema-test');
+var SUITES = {
+  spec: '../JSON-Schema-Test-Suite/tests/draft4/*.json',
+  schemas: '../ajv/spec/tests/schemas/*.json',
+  keywords: '../ajv/spec/tests/rules/*.json',
+  issues: '../ajv/spec/tests/issues/*.json'
+};
+var group = process.env.TEST_GROUP;
+var suites = group ? {[group]: SUITES[group]} : SUITES;
 
 module.exports = (description, validator) => {
   var skip = ['rules/format'];
@@ -15,12 +23,7 @@ module.exports = (description, validator) => {
 
   jsonSchemaTest(validator, {
     description,
-    suites: {
-      spec: '../JSON-Schema-Test-Suite/tests/draft4/*.json',
-      schemas: '../ajv/spec/tests/schemas/*.json',
-      keywords: '../ajv/spec/tests/rules/*.json',
-      issues: '../ajv/spec/tests/issues/*.json'
-    },
+    suites,
     skip,
     cwd: __dirname
   });

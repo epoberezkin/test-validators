@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+export group=$1
+
 for file in test/*.js; do
   if [[ "$file" != "test/testValidator.js" && "$file" != "test/remotes.js" ]]; then
     echo
     echo "$file" | sed 's/test\///' | sed 's/\.js//'
-    mocha "$file" | egrep -s '\d passing|\d failing'
+    TEST_GROUP="$group" mocha "$file" | egrep -s '\d passing|\d failing'
   fi
 done
