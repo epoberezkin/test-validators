@@ -14,8 +14,8 @@ var remotes = module.exports = {
     'http://localhost:1234/buu.json': require('../ajv/spec/remotes/buu.json'),
     'http://localhost:1234/tree.json': require('../ajv/spec/remotes/tree.json'),
     'http://localhost:1234/node.json': require('../ajv/spec/remotes/node.json'),
-    'http://localhost:1234/first.json': require('../ajv/spec/remotes/first.json'),
     'http://localhost:1234/second.json': require('../ajv/spec/remotes/second.json'),
+    'http://localhost:1234/first.json': require('../ajv/spec/remotes/first.json'),
     'http://localhost:1234/scope_change.json': require('../ajv/spec/remotes/scope_change.json')
   },
   meta: {

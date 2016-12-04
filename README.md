@@ -28,6 +28,26 @@ The table header shows the total number of tests is each group.
 |z-schema|-|1|-|17|**18**|
 
 
+## Most failed tests related to $ref
+
+|Test file|imjv<sup>*<sup>|jayschema|jjv|jsck|jsen|jsonschema|ss<sup>**<sup>|skeemas|themis|tv4|z-schema|
+|[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)|x|x|x|x|x|x|x|x|x|x|x|
+|[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)|x||x|x|x||x|x|x||x|
+|[ref in remote ref with id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/14_ref_in_remote_ref_with_id.json)|x||x|x|x||x|x|x|||
+|[id in ref without root id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/1_ids_in_refs.json)|||x|x||x|x|x||x|x|
+|[root ref in remote ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/13_root_ref_in_ref_in_remote_ref.json)|x||x|x|x||x|x|x|||
+|[recursive refs](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/27_recursive_reference.json)|||x|x|x||x|x||x|x|
+|[swagger schema](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_swagger_schema.json)||x||x|x|x|x||x|x||
+|[spec/refRemote](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/refRemote.json)|x|x|x|x|||x||x|||
+|[ref when sibling property has id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/170_ref_and_id_in_sibling.json)||||x|||x||x|x|x|
+|[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|x|||x|x||x||x|||
+|[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|x|x|x||||x||x|||
+
+<sup>*<sup> is-my-json-valid
+
+<sup>**<sup> schemasaurus
+
+
 ## Running tests
 
 ```bash
