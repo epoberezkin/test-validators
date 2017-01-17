@@ -33,19 +33,20 @@ The table header shows the total number of tests is each group.
 
 `x` marks the validators that failed the test.
 
-|<sub>Test file</sub>|<sub>[imjv](https://github.com/mafintosh/is-my-json-valid)</sub><sup>1</sup>|<sub>[jay](https://github.com/natesilva/jayschema)</sub><sup>2</sup>|<sub>[jjv](https://github.com/acornejo/jjv)</sub>|<sub>[jsck](https://github.com/pandastrike/jsck)</sub>|<sub>[jsen](https://github.com/bugventure/jsen)</sub>|<sub>[js](https://github.com/tdegrunt/jsonschema)</sub><sup>3</sup>|<sub>[ss](https://github.com/AlexeyGrishin/schemasaurus)</sub><sup>4</sup>|<sub>[sk](https://github.com/Prestaul/skeemas)</sub><sup>5</sup>|<sub>[th](https://github.com/playlyfe/themis)</sub><sup>6</sup>|<sub>[tv4](https://github.com/geraintluff/tv4)</sub>|<sub>[zs](https://github.com/zaggino/z-schema)</sub><sup>7</sup>|
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)|x|x|x|x|x|x|x|x|x|x|x|
-|[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)|x||x|x|x||x|x|x||x|
-|[ref in remote ref with id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/14_ref_in_remote_ref_with_id.json)|x||x|x|x||x|x|x|||
-|[id in ref without root id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/1_ids_in_refs.json)|||x|x||x|x|x||x|x|
-|[root ref in remote ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/13_root_ref_in_ref_in_remote_ref.json)|x||x|x|x||x|x|x|||
-|[recursive refs](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/27_recursive_reference.json)|||x|x|x||x|x||x|x|
-|[swagger schema](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_swagger_schema.json)||x||x|x|x|x||x|x||
-|[spec/refRemote](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/refRemote.json)|x|x|x|x|||x||x|||
-|[ref when sibling property has id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/170_ref_and_id_in_sibling.json)||||x|||x||x|x|x|
-|[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|x|||x|x||x||x|||
-|[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|x|x|x||||x||x|||
+|<sub>Test file</sub>|<sub>[ajv](https://github.com/epoberezkin/ajv)</sub>|<sub>[djv](https://github.com/korzio/djv)</sub>|<sub>[imjv](https://github.com/mafintosh/is-my-json-valid)</sub><sup>1</sup>|<sub>[jay](https://github.com/natesilva/jayschema)</sub><sup>2</sup>|<sub>[jjv](https://github.com/acornejo/jjv)</sub>|<sub>[jsck](https://github.com/pandastrike/jsck)</sub>|<sub>[jsen](https://github.com/bugventure/jsen)</sub>|<sub>[js](https://github.com/tdegrunt/jsonschema)</sub><sup>3</sup>|<sub>[ss](https://github.com/AlexeyGrishin/schemasaurus)</sub><sup>4</sup>|<sub>[sk](https://github.com/Prestaul/skeemas)</sub><sup>5</sup>|<sub>[th](https://github.com/playlyfe/themis)</sub><sup>6</sup>|<sub>[tv4](https://github.com/geraintluff/tv4)</sub>|<sub>[zs](https://github.com/zaggino/z-schema)</sub><sup>7</sup>|
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)||x|x|x|x|x|x|x|x|x|x|x|x|
+|[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)||x|x||x|x|x||x|x|x||x|
+|[ref in remote ref with id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/14_ref_in_remote_ref_with_id.json)||x|x||x|x|x||x|x|x|||
+|[id in ref without root id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/1_ids_in_refs.json)||x|||x|x||x|x|x||x|x|
+|[root ref in remote ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/13_root_ref_in_ref_in_remote_ref.json)||x|x||x|x|x||x|x|x|||
+|[recursive refs](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/27_recursive_reference.json)||x|||x|x|x||x|x||x|x|
+|[swagger schema](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_swagger_schema.json)||x||x||x|x|x|x||x|x||
+|[spec/refRemote](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/refRemote.json)|||x|x|x|x|||x||x|||
+|[ref when sibling property has id](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/170_ref_and_id_in_sibling.json)||||||x|||x||x|x|x|
+|[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|||x|||x|x||x||x|||
+|[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|||x|x|x||||x||x|||
+|Total failing|-|**7**|**7**|**4**|**8**|**10**|**7**|**3**|**11**|**6**|**9**|**5**|**5**|
 
 <sup>1</sup> [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)
 
