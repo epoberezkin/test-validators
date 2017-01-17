@@ -33,7 +33,7 @@ The table header shows the total number of tests is each group.
 
 `x` marks the validators that failed the test.
 
-|<sub>Test file</sub>|<sub>[imjv](https://github.com/mafintosh/is-my-json-valid)</sub><sup>*</sup>|<sub>[jayschema](https://github.com/natesilva/jayschema)</sub>|<sub>[jjv](https://github.com/acornejo/jjv)</sub>|<sub>[jsck](https://github.com/pandastrike/jsck)</sub>|<sub>[jsen](https://github.com/bugventure/jsen)</sub>|<sub>[jsonschema](https://github.com/tdegrunt/jsonschema)</sub>|<sub>[ss](https://github.com/AlexeyGrishin/schemasaurus)</sub><sup>**</sup>|<sub>[skeemas](https://github.com/Prestaul/skeemas)</sub>|<sub>[themis](https://github.com/playlyfe/themis)</sub>|<sub>[tv4](https://github.com/geraintluff/tv4)</sub>|<sub>[z-schema](https://github.com/zaggino/z-schema)</sub>|
+|<sub>Test file</sub>|<sub>[imjv](https://github.com/mafintosh/is-my-json-valid)</sub><sup>1</sup>|<sub>[jay](https://github.com/natesilva/jayschema)</sub><sup>2</sup>|<sub>[jjv](https://github.com/acornejo/jjv)</sub>|<sub>[jsck](https://github.com/pandastrike/jsck)</sub>|<sub>[jsen](https://github.com/bugventure/jsen)</sub>|<sub>[js](https://github.com/tdegrunt/jsonschema)</sub><sup>3</sup>|<sub>[ss](https://github.com/AlexeyGrishin/schemasaurus)</sub><sup>4</sup>|<sub>[sk](https://github.com/Prestaul/skeemas)</sub><sup>5</sup>|<sub>[th](https://github.com/playlyfe/themis)</sub><sup>6</sup>|<sub>[tv4](https://github.com/geraintluff/tv4)</sub>|<sub>[zs](https://github.com/zaggino/z-schema)</sub><sup>7</sup>|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[base URI change](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/62_resolution_scope_change.json)|x|x|x|x|x|x|x|x|x|x|x|
 |[mutually recursive ref](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/5_recursive_references.json)|x||x|x|x||x|x|x||x|
@@ -47,9 +47,19 @@ The table header shows the total number of tests is each group.
 |[recursive hash in remote hash](https://github.com/epoberezkin/ajv/blob/master/spec/tests/issues/70_1_recursive_hash_ref_in_remote_ref.json)|x|||x|x||x||x|||
 |[spec/ref](https://github.com/json-schema-org/JSON-Schema-Test-Suite/blob/master/tests/draft4/ref.json)|x|x|x||||x||x|||
 
-<sup>*</sup> [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)
+<sup>1</sup> [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)
 
-<sup>**</sup> [schemasaurus](https://github.com/AlexeyGrishin/schemasaurus)
+<sup>2</sup> [jayschema](https://github.com/natesilva/jayschema)
+
+<sup>3</sup> [jsonschema](https://github.com/tdegrunt/jsonschema)
+
+<sup>4</sup> [schemasaurus](https://github.com/AlexeyGrishin/schemasaurus)
+
+<sup>5</sup> [skeemas](https://github.com/Prestaul/skeemas)
+
+<sup>6</sup> [themis](https://github.com/playlyfe/themis)
+
+<sup>7</sup> [z-schema](https://github.com/zaggino/z-schema)
 
 
 ## Running tests
