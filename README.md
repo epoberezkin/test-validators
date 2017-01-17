@@ -15,6 +15,7 @@ The table header shows the total number of tests is each group.
 |validator|spec<br>(272)|schemas<br>(32)|keywords<br>(33)|issues<br>(103)|**total**<br>(440)|
 |---|:-:|:-:|:-:|:-:|:-:|
 |[ajv](https://github.com/epoberezkin/ajv)|-|-|-|-|-|
+|[djv](https://github.com/korzio/djv)|3|9|2|49|**63**|
 |[is-my-json-valid](https://github.com/mafintosh/is-my-json-valid)|6|-|-|13|**19**|
 |[jayschema](https://github.com/natesilva/jayschema)|5|-|-|6|**11**|
 |[jjv](https://github.com/acornejo/jjv)|9|2|1|12|**24**|
